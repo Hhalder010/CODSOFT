@@ -1,0 +1,58 @@
+*{
+    background-image: url(https://unbounce.com/photos/Gradient-Background.png);
+}
+#head{
+    
+    color: blue;
+}
+h3{
+    display: inline-block;
+    margin: 10px;
+    transition:text-decoration 2s;
+}
+h3:hover{
+    text-decoration: solid orangered underline;
+}
+h1{
+    font-size: 70px;
+    position: relative;
+    top:50px;
+    left:70px;
+    box-shadow: 3px 8px 10px black;
+}
+#ide{
+    position: relative;
+    left:310px;
+    top:-10px;
+}
+#land{
+    height: 30px;
+    width: 150px;
+    position:relative;
+    left:80px;
+    top:-100px;
+    box-shadow: 3px 6px 10px black;
+}
+#pic{
+    height: 500px;
+    width: 500px;
+    background-image: url(creative.jpg);
+    background-size: cover;
+    position: relative;
+    left: 700px;
+    top:-300px;
+    border-radius: 50px;
+    box-shadow: 2px 6px 10px black;
+    transition: 1s;
+}
+#pic:hover{
+    box-shadow: 6px 10px 30px black;
+}
+p{
+    width: 400px;
+    font-size: 20px;
+    position: relative;
+    left:80px;
+    top:-600px;
+    box-shadow: 3px 6px 10px black;
+}
